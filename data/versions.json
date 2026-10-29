@@ -1,0 +1,19 @@
+{
+ "country": "IR",
+ "acts": [
+  {
+   "slug": "constitution",
+   "short": "Constitution",
+   "title": "Constitution of the Islamic Republic of Iran (1979, as revised 1989)",
+   "url": "https://www.shora-gc.ir/en/news/87/constitution-of-the-islamic-republic-of-iran-full-text",
+   "versions": [
+    {
+     "from": "1989-07-28",
+     "units": 178,
+     "source_url": "https://www.shora-gc.ir/en/news/87/constitution-of-the-islamic-republic-of-iran-full-text",
+     "sha256": "d9e9186d8a930e3b47f01d53ffb0c5ee82fc712b48ece7df4dd286915cc363c7"
+    }
+   ]
+  }
+ ]
+}

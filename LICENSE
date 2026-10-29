@@ -1,0 +1,13 @@
+The legal text is the Constitution of the Islamic Republic of Iran (as revised in 1989), in the English translation
+published by the Guardian Council of the Constitution on its English site
+(https://www.shora-gc.ir/en/news/87/constitution-of-the-islamic-republic-of-iran-full-text), retrieved 29 October 2026.
+The page states no licence; the Persian text is the authoritative one.
+
+Changes made by Lexifina: each version was converted to one Markdown file per provision, one paragraph per line;
+spacing, quotes and dashes were normalised; headings, page numbers and footnote markers were left out; and the
+versions were arranged as git commits credited to the publisher. The wording of the law was not changed. The
+publisher does not endorse this repository.
+
+Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are
+dedicated to the public domain under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode

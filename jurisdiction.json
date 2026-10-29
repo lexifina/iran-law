@@ -1,0 +1,11 @@
+{
+  "path": "ir",
+  "code": "IR",
+  "name": "Iran",
+  "level": "country",
+  "repo": "https://github.com/lexifina/iran-law",
+  "build": "first build: Constitution (1979, as revised 1989), English translation by the Guardian Council (1 version, oldest available, 1989-07-28)",
+  "register": "https://claude.ai/artifact/DdS9F6yqpPZtV2i7FGQhYZ",
+  "register_date": "2026-10-28",
+  "sources": 1
+}

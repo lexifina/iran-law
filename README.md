@@ -71,6 +71,9 @@ The version is credited to the publisher, the Guardian Council of the Constituti
 | Source | Kind | Past versions | Notes |
 | --- | --- | --- | --- |
 | [Guardian Council of the Constitution](https://www.shora-gc.ir/en/news/87/constitution-of-the-islamic-republic-of-iran-full-text) | Official English translation of the Constitution | no, the current text only | Read on 29 October 2026; the Persian text is authoritative |
+| [Islamic Parliament Research Center](https://rc.majlis.ir/fa/law) | Persian Constitution and codes, as enacted | yes, from the Majlis volumes | Read on 2 November 2026 |
+| [سامانه ملی آرای قضایی](https://ara.jri.ac.ir/), Judiciary Research Institute | Court judgments, parties as initials | one per case | Family, minors and sexual-offence cases are not published here |
+| Hugging Face dataset [endomorphosis/ipfs_iran_laws](https://huggingface.co/datasets/endomorphosis/ipfs_iran_laws) | Third-party copy of [dotic.ir](https://dotic.ir), the official Iranian law portal: regulations and the general boards' rulings | one per record | **Not yet checked against the official source**; to be verified against the official text when capacity allows. Each commit says so (`Source-status:`, `Verification:`) |
 
 ## Licence
 

@@ -8,6 +8,7 @@ sources use) and all numbers use Western digits. Every folder holds at most 1,00
 | `قانون-اساسی/` | The Constitution of the Islamic Republic of Iran in Persian, the authoritative text: 1358 (1979) and the 1368 (1989) revision | one principle (`اصل-001.md`), the preamble (`مقدمه.md`) |
 | `constitution/` | Its English translation published by the Guardian Council (a translation, not an official text) | one article (`art-001.md`) |
 | `قوانین/<سال>/<عنوان>/` | Laws and codes, by the Solar Hijri year of enactment and short title (`قوانین/1311/قانون-تجارت/`); a code over 1,000 articles is split by its own parts (`قوانین/1307/قانون-مدنی/جلد-1/`) | one article (`ماده-001.md`) |
+| `مقررات/<سال>/<عنوان>/` | Regulations (آیین‌نامه, تصویب‌نامه, مصوبه ...), by the Solar Hijri year of approval and short title | the whole instrument (`متن.md`) while it is not split into articles |
 | `آرای-قضایی/<مرجع>/<سال>/<ماه>/` | Court judgments from the Judiciary's national judgments system (ara.jri.ac.ir), by court and the Solar Hijri year and month of the final judgment | one case's published judgments (`<شماره-دادنامه>.md`) |
 | `data/`, `tools/` | Tables, charts and the tools to read the history | |
 
@@ -39,5 +40,11 @@ and sexual offences are not published here.
 - Judgments: سامانه ملی آرای قضایی, Judiciary Research Institute (ara.jri.ac.ir). Its pages say "کلیه حقوق برای
   پژوهشگاه قوه قضاییه محفوظ است".
 - English Constitution: Guardian Council of the Constitution (shora-gc.ir).
+- **Third-party copy of dotic.ir.** Some regulations and the general boards' rulings (هیأت عمومی دیوان عدالت اداری,
+  رأی وحدت رویه دیوان عالی کشور) come from the Hugging Face dataset `endomorphosis/ipfs_iran_laws`, a copy of dotic.ir
+  (the official Iranian law portal of the Vice-Presidency for Legal Affairs), not from dotic.ir itself. They have
+  not yet been checked against the official source and will be verified against the official text when capacity
+  allows. Each such commit says so in its `Source-status:` and `Verification:` trailers, and each file in its front
+  matter (`وضعیت`). Such a file holds the whole instrument or ruling as the copy gives it.
 
 Lexifina's arrangement, commit messages, tables and tools are dedicated to the public domain under CC0 1.0.

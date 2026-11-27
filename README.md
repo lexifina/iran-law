@@ -9,11 +9,11 @@ The law of Iran as a git history: one file per provision, one commit per version
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Iran's national law, which global-law reads at `iran/national/acts/`.
 
-**What is in it now:** the Constitution of the Islamic Republic of Iran (1979, as revised 1989), in one version: the English translation the Guardian Council of the Constitution publishes, with its preamble and 177 articles (178 files). No statute, decree or regulation is here yet. [`constitution/README.md`](constitution/README.md) lists every provision; [`REPRODUCE.md`](REPRODUCE.md) says how the files were made.
+**What is in it now:** the Constitution in Persian (1979 and its 1989 revision) and in the Guardian Council's English translation; the Civil Code and the Commercial Code, one file per article (1,555 files); 2 regulations; and 18,156 published judgments of the Supreme Court, the Administrative Justice Court and the appeal and first-instance courts (Solar Hijri 1389-1403, 2010-2025), with unifying rulings of their general boards. Most laws are not here yet. [`STRUCTURE.md`](STRUCTURE.md) sets out the folders; [`REPRODUCE.md`](REPRODUCE.md) says how the first files were made.
 
-Each act is a folder with one file per provision: `constitution/art-001.md` is Article 1 and `constitution/preamble.md` the preamble.
+Each act is a folder with one file per provision: `قانون-اساسی/اصل-001.md` is Principle 1 of the Persian Constitution, and `constitution/art-001.md` Article 1 of its English translation.
 
-The text is in English, as the Guardian Council publishes it. The Persian text, the authoritative one, is not part of this record.
+The texts are in Persian, as the Majlis Research Center and the Judiciary publish them; the English Constitution is the Guardian Council's translation, not an official text.
 
 ## Questions as git commands
 
